@@ -6,3 +6,11 @@
 using namespace std;
 
 int main()
+{
+    cout << "Awa; Program" << endl; // penanda 1:....
+    try {
+        array<int, 3> data = { 10, 20, 30};
+        //int data[3] = { 10, 20, 30 }
+        //pesan array integer dengan 3 elemen
+        cout<<data.at(5) << endl;
+        //memanggil array dengan elemen ke 5

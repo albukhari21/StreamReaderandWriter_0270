@@ -21,4 +21,8 @@ int main()
         /*akan dieksekusi karna array data hanya memiliki 3 elemen*/
 
     }
- 
+    cout << "Baris program yang terakhir" << endl;
+    /*penanda 2: bahwa prgoram berjalan tanpa berhenti meskipun
+    terjadi kesalahan*/
+    return 0;
+}
